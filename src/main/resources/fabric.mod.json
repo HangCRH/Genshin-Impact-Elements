@@ -3,9 +3,9 @@
 	"id": "hangcrh-genshin-elements",
 	"version": "${version}",
 	"name": "Genshin Impact Elements",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Added the elements of Genshin Impact.!",
 	"authors": [
-		"Me!"
+		"HangCRH"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
