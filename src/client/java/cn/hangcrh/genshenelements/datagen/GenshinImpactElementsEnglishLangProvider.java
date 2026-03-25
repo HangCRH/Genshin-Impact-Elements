@@ -17,5 +17,8 @@ public class GenshinImpactElementsEnglishLangProvider extends FabricLanguageProv
     public void generateTranslations(HolderLookup.Provider wrapperLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add("effect.hangcrh-genshin-elements.wet","Wet");
         translationBuilder.add("effect.hangcrh-genshin-elements.pyro","Pyro");
+        translationBuilder.add("effect.hangcrh-genshin-elements.cryo","Cryo");
+        translationBuilder.add("effect.hangcrh-genshin-elements.electro","Electro");
+        translationBuilder.add("effect.hangcrh-genshin-elements.dendro","Dendro");
     }
 }

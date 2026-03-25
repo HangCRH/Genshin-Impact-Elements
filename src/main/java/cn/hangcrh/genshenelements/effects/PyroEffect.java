@@ -5,11 +5,14 @@ import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.entity.LivingEntity;
 
-public class HydroEffect extends MobEffect {
-    protected HydroEffect() {
+/**
+ * 火元素附着的生物效果(buff)
+ */
+public class PyroEffect extends MobEffect {
+    protected PyroEffect() {
         // category: StatusEffectCategory - describes if the effect is helpful (BENEFICIAL), harmful (HARMFUL) or useless (NEUTRAL)
         // color: int - Color is the color assigned to the effect (in RGB)
-        super(MobEffectCategory.NEUTRAL, 0x4eafda);//super(效果类型: 中性, 粒子颜色: 十六进制整数)
+        super(MobEffectCategory.NEUTRAL, 0xed1c24);//super(效果类型: 中性, 粒子颜色: 十六进制整数)
     }
 
     // Called every tick to check if the effect can be applied or not

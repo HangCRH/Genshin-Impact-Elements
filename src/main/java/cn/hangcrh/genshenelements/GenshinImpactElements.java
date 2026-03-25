@@ -35,10 +35,10 @@ public class GenshinImpactElements implements ModInitializer {
 }
 class ElementalReactionEvent{
 	public static void initialize(){
-		/**
-		 * 注册新事件：end world tick
-		 * 每维度tick结束时调用，参数为当前维度
-		 * 用于给实体添加“碰到部分方块获得元素附着”效果
+		/*
+		  注册新事件：end world tick
+		  每维度tick结束时调用，参数为当前维度
+		  用于给实体添加“碰到部分方块获得元素附着”效果
 		 */
 		ServerTickEvents.END_WORLD_TICK.register((world)->{
 			for(Entity entity:world.getAllEntities()){	//遍历所有实体
@@ -59,7 +59,7 @@ class ElementalReactionEvent{
 
 				if (found) {	// 触发事件
 					var instance = new MobEffectInstance(	//效果的holder
-							GenshinElementsEffects.HYDRO,	//效果
+							GenshinElementsEffects.WET,	//效果
 							5*20,							//持续时间(tick)
 							0,								//效果等级
 							false,							//若为True会影响效果图标所以没用，尽管从语义来讲应该为True
